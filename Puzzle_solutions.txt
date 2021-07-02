@@ -1,0 +1,69 @@
+------------------------
+Solutions to the puzzles
+------------------------
+
+#1 Watch your back
+
+	The middle shadow (it has to be this one; the rest wouldn't have enough moves to get away afterwards) moves Northeast of the enemy leader.
+	Another shadow backstabs from the Southeast hex.
+	The first shadow moves North of the enemy leader.
+	The remaining shadow backstabs from the Southern hex.
+	The first shadow moves out of range of the other mages.
+
+#2 Follow the leader
+
+	Kill the grunt on village with the most experienced fighter using the southwestern hex; level into captain so it can lead the second fighter
+	Kill the orcish warrior with the second fighter; level into captain so it can lead the archer
+	Archer and ranger kill the leader.
+	
+#3 Let there be light
+
+	Peasant attacks while the Mage of Light is adjacent to the peasant but not the enemy leader
+	Mage of Light attacks
+	Outlaw attacks with melee and dies because the mage is illuminating the leader
+	Bowman finishes the leader
+		
+#4 Growloff's revenge
+
+	Gwabbo slows Growloff while Cylanna is adjacent to both Gwabbo and Growloff, and Keshan is adjacent to Gwabbo (but not Growloff as that would end his move)
+	Move Keshan up north so he can lead Inky
+	Attack with Inky
+	Cylanna finishes Growloff
+	
+#5 A skirmish with death
+	
+	*Solution 1 (this is the originally intended solution)
+
+	The swordsman softens up the Banebow in the north so the Paladin leader can finish
+	This clears the way for the assassin to skirmish directly north of the enemy leader
+	Master of Arms moves to the other side of the Revenant on the village to provide backstab for the assassin
+	The assassin backstabs the revenant to death
+	Master of Arms moves to the village and attacks the leader, capturing the village and dying in the process
+	Silver mage teleports to the village and finishes the leader
+	
+	*Solution 2 (thanks to Skeptical_troll!)
+	
+	The swordsman softens up the Banebow in the north so the Paladin leader can finish
+	This clears the way for the assassin to skirmish directly north of the enemy leader
+	This time the Master of Arms moves south of the leader so the assassin can backstab the leader
+	The Master of Arms and Javelineer team up to kill the skeleton blocking the silver mage
+	Silver mage finishes the leader
+	
+#6 The spoiled prince
+
+	Move the mage of light directly south of the spectre and attack in melee (4 dmg)
+	Range attack with the mage on the left for 6x3=18 damage.
+	Melee attack with mage on the right which will kill the mage and heal the spectre to 17 HP
+	Northern mage attacks for 5x3=15 damage.
+	Hildrac finishes the spectre.
+	
+#7 Troll bridge
+
+	-Turn 1:
+	Attack the troll whelp with the goblin knight, which will level the enemy unit.
+	Attack in melee with the Orcish Warrior, Grunt, and Goblin Rouser (leaves with 8 HP if the enemy is a troll, or 2 HP if it is a rocklobber.)
+	Finish with the wolf rider and level to pillager.
+	Move the direwolf leader to the village to heal.	
+	-Turn 2:
+	Slow the leader with the pillager.
+	Attack in melee with your leader and the goblin spearman.

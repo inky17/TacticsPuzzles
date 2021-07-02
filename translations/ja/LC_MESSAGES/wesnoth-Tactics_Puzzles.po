@@ -1,0 +1,801 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2018-12-11 13:13+0900\n"
+"PO-Revision-Date: 2018-12-11 17:49+0900\n"
+"Last-Translator: Kawaguchi_Hideo <kawaguchi_hideo@mac.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. [campaign]: id=tactics_puzzles
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/_main.cfg:11
+msgid "Tactics Puzzles"
+msgstr "タクティクスパズル"
+
+#. [campaign]: id=tactics_puzzles
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/_main.cfg:12
+msgid "TP"
+msgstr "TP"
+
+#. [campaign]: id=tactics_puzzles
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/_main.cfg:17
+msgid ""
+"A collection of tactical puzzles for Wesnoth, similar to tactics problems in "
+"chess.\n"
+"\t\n"
+"Each puzzle has a hint which you can read using the right click menu. If "
+"you're still stuck, there's a text file included in the addon with solutions "
+"to all the puzzles.\n"
+"\t\n"
+"(7 puzzles so far)"
+msgstr ""
+"詰将棋と同じような感じの、詰Wesパズルのコレクション。\n"
+"\n"
+"それぞれのパズルには、右クリックメニューで読むことができるヒントがあります。 "
+"もし問題が難しすぎると感じたら、アドオンに同梱のテキストファイルで、すべての"
+"問題の解決策が参照できます。\n"
+"\n"
+"（今のところ7個のパズル）"
+
+#. [campaign]: id=tactics_puzzles
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/_main.cfg:25
+msgid ""
+"All puzzles solved!\n"
+"Well done!"
+msgstr ""
+"すべてのパズルが解けました！\n"
+"おめでとう！"
+
+#. [about]
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/_main.cfg:29
+msgid "Japanese Translation"
+msgstr "日本語翻訳"
+
+#. [set_menu_item]: id=3_menu_return #to make it the last menu item, seems the order is based on the id
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/macros/right_click_menu.cfg:9
+msgid "Return to puzzle selection menu"
+msgstr "パズル選択メニューに戻る"
+
+#. [set_menu_item]: id=1_vague_hint
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/macros/right_click_menu.cfg:30
+msgid "Read a vague hint"
+msgstr "ふんわりしたヒントを読む"
+
+#. [set_menu_item]: id=2_detailed_hint
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/macros/right_click_menu.cfg:49
+msgid "Read a detailed hint"
+msgstr "詳細なヒントを読む"
+
+#. [scenario]: id=menu
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/00_menu.cfg:6
+msgid "Menu"
+msgstr "メニュー"
+
+#. [message]: speaker=narrator
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/00_menu.cfg:115
+msgid "Choose a puzzle:"
+msgstr "パズルを選択:"
+
+#. [option]: speaker=narrator
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/00_menu.cfg:132
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/00_menu.cfg:151
+msgid "<b>Quit.</b>"
+msgstr "<b>終了する。</b>"
+
+#. [scenario]: id=backstabs
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:6
+msgid "Watch your back"
+msgstr "後ろに気をつけろ"
+
+# パズル1：後ろに気をつけろ
+# ふんわりしたヒント
+#. [scenario]: id=backstabs
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:38
+msgid ""
+"Shadows are skirmishers, meaning a shadow can provide the backstab bonus for "
+"another shadow and continue moving afterwards."
+msgstr ""
+"シャドウは散兵持ち。つまり、シャドウは他のシャドウに奇襲ボーナスを与えた後、"
+"まだ動けるって事よ。"
+
+# パズル1：後ろに気をつけろ
+# 詳細なヒント
+#. [scenario]: id=backstabs
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:39
+msgid ""
+"Six backstabs (two shadows attacking with the backstab bonus) will finish "
+"the enemy leader. So one of the shadows can provide the backstab bonus for "
+"the other two before moving out of range."
+msgstr ""
+"６回の奇襲攻撃(２体のシャドウが奇襲ボーナス込みで攻撃する)で敵のリーダーを仕"
+"留められます。つまり、１体のシャドウが他の２体のシャドウに奇襲ボーナスを付与"
+"し、しかる後に敵の攻撃範囲外に避難することができます。"
+
+#. [message]: speaker=whitemage
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:94
+msgid ""
+"This place gives me the creeps. I've heard rumors that it's haunted. Perhaps "
+"we should turn back."
+msgstr ""
+"この場所は気味が悪い。 私は幽霊が出るって噂を聞いたんだ。 思うんだけど、引き"
+"返した方が良いんじゃないかな。"
+
+#. [message]: speaker=mage_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:98
+msgid ""
+"What are you scared of, the trees? It's broad daylight! I've had enough of "
+"your-"
+msgstr ""
+"君は何を恐れているんだ？　そいつは木でも見間違えたんじゃないのか？　今は真昼"
+"間だぞ。もう聞き飽きた。君の……"
+
+#. [message]: speaker=mage
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:102
+msgid "Ahhhh! <b>Behind you!</b>"
+msgstr "うわぁぁぁ! <b>あんたの後ろ!</b>"
+
+#. [message]: speaker=mage_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:106
+msgid "Just how gullible do you think I am?"
+msgstr "私がそんな芝居で怖がる程お人好しだと思っているのか？"
+
+#. [objective]: condition=win
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:110
+msgid ""
+"Kill the enemy leader, and have all your shadows survive the enemy turn."
+msgstr "敵のリーダーを殺し、全てのシャドウが敵のターンを生き残こる。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:114
+msgid "Enemy leader survives."
+msgstr "敵のリーダーが生き残こる。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:118
+msgid "Loss of a shadow."
+msgstr "シャドウの一つを失う。"
+
+#. [note]
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:122
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:139
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:131
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:172
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:197
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:125
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:166
+msgid "<b>All units (including enemies) have a 100% chance to hit.</b>"
+msgstr "<b>全てのユニット(敵を含む)の攻撃は100％命中します。</b>"
+
+#. [note]
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:125
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:142
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:134
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:175
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:200
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:128
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:169
+msgid "You can use Menu -> Back to Turn 1 to reset the puzzle."
+msgstr ""
+"「メニュー -> ターン1に戻る」を使用することでパズルをリセットすることができ"
+"る。"
+
+#. [note]
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:128
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:145
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:137
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:178
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:203
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:131
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:172
+msgid "Right click to read a hint."
+msgstr "右クリックでヒントを読む。"
+
+#. [note]
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:131
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:148
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:140
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:181
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:206
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:134
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:175
+msgid "Right click to return to the puzzle selection menu."
+msgstr "右クリックで、パズル選択メニューに戻ります。"
+
+#. [message]: speaker=whitemage
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:158
+msgid "That's it, we're getting out of here!"
+msgstr "やっべ、ここから脱出しよう！"
+
+#. [message]: speaker=narrator
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:163
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:183
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:183
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:226
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:237
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:203
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:214
+msgid "Puzzle solved!"
+msgstr "パズルが解けました！"
+
+#. [message]: speaker=mage_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/01_backstabs.cfg:193
+msgid "See? I told you there's nothing to worry about."
+msgstr "見たかね？さっきも言ったが、何の問題も無いではないか。"
+
+#. [scenario]: id=leadership
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:6
+msgid "Follow the leader"
+msgstr "リーダーに続け"
+
+# パズル2：リーダーに続け
+# ふんわりしたヒント
+#. [scenario]: id=leadership
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:32
+msgid ""
+"Elvish fighters can level to captains, which increase the damage of adjacent "
+"lower level units."
+msgstr ""
+"エルフの戦士がエルフの隊長になったら、周囲に居る自分より低いレベルの味方ユ"
+"ニットにダメージボーナスを与えることができるんだよ。"
+
+# パズル2：リーダーに続け
+# 詳細なヒント
+#. [scenario]: id=leadership
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:33
+msgid ""
+"Note that both fighters are one kill away from leveling: one of them needs a "
+"level 1 kill, and the other needs a level 2 kill. The less experienced "
+"fighter can't kill a level 2 unit on his own, but could do so with the help "
+"of leadership."
+msgstr ""
+"両方の戦士は1キルでレベルアップできます：1体はレベル1ユニットのキルを、もう1"
+"体はレベル2ユニットのキルを必要とします。経験の少ない戦士は自力でレベル2ユ"
+"ニットを倒すことは出来ませんが、統率能力による補助があればそれを可能としま"
+"す。"
+
+#. [message]: speaker=orc_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:127
+msgid "Ha, you puny elves will never make it past my wall of meatshields!"
+msgstr "ハッ、ちっぽけなエルフがオークの肉壁を突破して俺に辿り着けるものか！"
+
+#. [objective]: condition=win
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:131
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:123
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:185
+msgid "Kill the enemy leader this turn."
+msgstr "このターンで敵リーダーを殺す。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:135
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:127
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:168
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:189
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:113
+msgid "End your turn."
+msgstr "あなたのターンが終わる。"
+
+#. [message]: speaker=orc_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:167
+msgid "How did you incompetent fools die so fast?!"
+msgstr "役立たずの愚か者、どうしたらそんなに簡単に死ねるんだ？！"
+
+#. [message]: speaker=archer
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/02_leadership.cfg:171
+msgid "It's not fair, boss - the random number generator is rigged!"
+msgstr "ボス、そいつはフェアじゃ無い、、乱数発生装置が実装されて無いんだ！"
+
+#. [scenario]: id=illuminate
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:6
+msgid "Let there be light"
+msgstr "光あれ"
+
+# パズル3：光あれ
+# ふんわりしたヒント
+#. [scenario]: id=illuminate
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:36
+msgid ""
+"Usually, you only want to illuminate your own lawful units and the enemy's "
+"chaotic units, but every rule has an exception."
+msgstr ""
+"通常なら、自分の秩序ユニットか敵の混沌ユニットを照らし出したいだろうけど、ま"
+"あ何事にも例外はあるわけ。"
+
+# パズル3：光あれ
+# 詳細なヒント
+#. [scenario]: id=illuminate
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:37
+msgid ""
+"You have too many units and not enough hexes - it would be convenient if the "
+"outlaw died while attacking to free up the hex for another unit. The enemy "
+"leader isn't able to kill the outlaw without illumination though.\n"
+"\n"
+"Every damage point counts, so make sure the peasant does maximum damage "
+"before he goes down."
+msgstr ""
+"あなたのユニット数に比べてへクスの数が不足しています。無法者が攻撃中に戦死す"
+"るとへクスが稼げます。敵リーダーは照明無しだと無法者に引導を渡せない事に注"
+"意。\n"
+"\n"
+"全てのダメージポイントは加算されます。ですから、農民一人にいたるまで倒れる前"
+"に最大限のダメージを与えるように工夫しましょう。"
+
+#. [message]: speaker=human_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:115
+msgid "Intruders in the night! To arms!"
+msgstr "夜襲だ！武器を取れ！"
+
+#. [message]: speaker=peasant
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:119
+msgid "Maybe I should have stayed home..."
+msgstr "なんかの間違いだ、俺は今家で寝ているはずだ・・・"
+
+#. [message]: speaker=human_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:159
+msgid "Argh!"
+msgstr "アゥッ！"
+
+#. [message]: speaker=knight
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:163
+msgid "<i>Yawn</i>... huh? Is it morning already? What's going on?"
+msgstr "<span size='small'>ふあぁ〜</span>… ふぁ? もう朝? 何、どうしたの?"
+
+#. [message]: speaker=swordsman
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:167
+msgid "<i>(Snore)</i>"
+msgstr "<span size='small'>(いびき)</span>"
+
+#. [message]: speaker=human_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/03_illuminate.cfg:171
+msgid "Some help you two were!"
+msgstr "あんた、わざと俺を照らしたのか！"
+
+# Dead Water の巨大イカをペットにしていた彼が敵リーダー。
+#. [scenario]: id=revenge
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:9
+msgid "Growloff's revenge"
+msgstr "Growloff の復讐"
+
+#. [side]: id=Growloff, type=Ranger
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:27
+msgid "Growloff and his Pets"
+msgstr "Growloffと彼のペット"
+
+#. [side]: id=Growloff, type=Ranger
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:29
+msgid "Growloff"
+msgstr "Growloff"
+
+# パズル4：Growloff の復讐
+# ふんわりしたヒント
+#. [scenario]: id=revenge
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:39
+msgid ""
+"You'll need to use both Keshan's leadership and Cylanna's illumination "
+"optimally (and remember that the leadership bonus stacks with illumination)."
+msgstr ""
+"Keshanの統率とCylannaの照明を無駄にしないでね（ちなみに、統率と照明のボーナス"
+"は累積するんだって、ここ重要）。"
+
+# パズル4：Growloff の復讐
+# 詳細なヒント
+#. [scenario]: id=revenge
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:40
+msgid ""
+"The first thing to do is slow Growloff with the help of Keshan's leadership, "
+"while using Cylanna to make sure Gwabbo doesn't die on the counterattack.\n"
+"\t\n"
+"\tCylanna can't survive full hits from Growloff - but maybe she can finish "
+"him off before he gets a chance to use all his attacks."
+msgstr ""
+"最初にすべきなのはKeshanの統率ボーナス付きでGrowloffを遅化すること、その際"
+"Gwabboが反撃で死なないようにCylannaの照明を併用します。\n"
+"\n"
+"CylannaはGrowloffの攻撃を全て受けた場合は生き残れません――ですが、最後の攻撃を"
+"受ける前に倒せるでしょう。"
+
+#. [message]: speaker=Growloff
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:148
+msgid "Enjoy your meal, my pets! It's an all you can eat fish buffet!"
+msgstr ""
+"私のペットちゃん、食事の時間よ〜！ 魚のビュッフェを用意したわ、ぜ〜んぶ食べ"
+"ちゃっていいのよ〜！"
+
+#. [message]: speaker=gwabbo
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:152
+msgid "We're all going to become breakfast at this rate!"
+msgstr "このままでは我々は朝食にされてしまう！"
+
+#. [message]: speaker=cylanna
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:156
+msgid "Maybe if we kill the one commanding them, those creatures will retreat."
+msgstr "多分だけど、飼い主を殺すことができれば、怪物たちは逃げていくかも。"
+
+#. [objective]: condition=win
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:160
+msgid "Kill Growloff this turn without losing a unit."
+msgstr "ユニットを失うことなくこのターンで Growloff を殺す。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:164
+msgid "Death of any of your units."
+msgstr "いずれかのあなたのユニットの死。"
+
+#. [message]: speaker=unit
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:200
+msgid "No, I don't want to get eaten!"
+msgstr "いやだ、食べられたくない！"
+
+#. [message]: speaker=Growloff
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/04_revenge.cfg:214
+msgid "Killed by seafood... maybe I should have become a vegetarian."
+msgstr ""
+"シーフードに殺されるなんて……こんな事なら、菜食主義者になればよかったよ。"
+
+#. [scenario]: id=skirmish
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:6
+msgid "A skirmish with death"
+msgstr "死者をすり抜けろ"
+
+# パズル5：死者をすり抜けろ
+# ふんわりしたヒント
+#. [scenario]: id=skirmish
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:40
+msgid ""
+"The silver mage will do massive damage to the enemy leader, if he can get "
+"close somehow. There are actually several ways to do this - one way is to "
+"somehow use that village right next to the enemy leader."
+msgstr ""
+"銀魔術師がどうにかして敵リーダーに近づければ大戦果だわね。実は、方法は複数あ"
+"るの。一つはもちろん、敵リーダーのすぐ隣の村を利用する方法よ。"
+
+#. [scenario]: id=skirmish
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:41
+msgid ""
+"The goal is to teleport the silver mage to that village right next to the "
+"leader. Right now it's occupied and belongs to the enemy, but maybe the "
+"skirmishers can do something about that. If a unit captures the village and "
+"dies on the same turn, the village will be left open for the silver mage to "
+"teleport to."
+msgstr ""
+"目標は銀魔術師が敵リーダーのすぐ隣の村にテレポートすることです。現時点では村"
+"は占領され、敵の所属となっていますが、あなたの散兵に何かしらできるでしょう。"
+"ユニットが村を占領した同じターンで死亡すると銀魔術師がテレポートするために必"
+"要とする無人の村が手に入ります。"
+
+#. [message]: speaker=undead_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:181
+msgid "Accept your fate, mortals! You stand no chance against my undead horde!"
+msgstr ""
+"お前の運命を受け入れるのだ。命に限りある者どもよ！　我がアンデッド軍団の前で"
+"はお前に希望は無い。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:193
+msgid "Death of your leader."
+msgstr "あなたのリーダーの死。"
+
+#. [message]: speaker=undead_leader
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/05_skirmish.cfg:225
+msgid ""
+"What's the point of having a massive army when the enemy just WALKS RIGHT "
+"THROUGH?!"
+msgstr "敵が通り抜けるんなら、大軍団を有していて何になるんだ？！"
+
+#. [scenario]: id=exp
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:6
+msgid "The spoiled prince"
+msgstr "甘やかされた王子"
+
+# パズル6：甘やかされた王子
+# ふんわりしたヒント
+#. [scenario]: id=exp
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:32
+msgid ""
+"You need to get the spectre down to 2 HP, but there's no way to achieve that "
+"with just ranged attacks."
+msgstr ""
+"スペクターのHPを2にする必要があるんだけど、それって投射攻撃だけじゃ無理っぽい"
+"よね。"
+
+# パズル6：甘やかされた王子
+# 詳細なヒント
+#. [scenario]: id=exp
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:33
+msgid ""
+"You'll have to heal the spectre a bit by having a mage melee attack it (and "
+"note that the mage of light's arcane resistance is so good that he will "
+"actually deal damage in melee).\n"
+"\n"
+"Also, one of the mages needs to die in order to make room for Hildrac to "
+"attack - tough luck!"
+msgstr ""
+"あなたは魔術師に近接攻撃を使わせスペクターを少々回復させる必要があります(そし"
+"て、光の魔術師の秘術耐性は優れているため、近接攻撃でもダメージを与えられるこ"
+"とに注目)。\n"
+"\n"
+"また、Hildracが攻撃するためのへクスを確保するには魔術師が一人死ななくてはなり"
+"ません。"
+
+#. [message]: speaker=mageoflight
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:96
+msgid ""
+"What fortune! We have come across an isolated foe which will provide "
+"valuable experience. Our mages will make quick work of it."
+msgstr ""
+"なんという幸運だ！ 我々は完全に孤立した敵に遭遇したぞ、貴重な経験値袋だ。 "
+"我々の魔術師なら、それを素早く片付けることが出来る。"
+
+#. [message]: speaker=prince
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:101
+msgid ""
+"And give them the experience? No, it's mine! <b>I</b> am the only one who "
+"matters here. The only purpose of all your existences is to make sure <b>I</"
+"b> survive!"
+msgstr ""
+"そして、彼らに経験を与えるのか？ 違う、その経験値は私のものだ！ 唯一の重要人"
+"物は<b>私</b>だ。 貴様らの唯一の存在意義は、<b>私</b>の生存を確実にすること"
+"だ！"
+
+#. [message]: speaker=mageoflight
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:105
+msgid "<i>(Sigh, it's going to be a long day.)</i> Very well, my prince."
+msgstr ""
+"<span size='small'>(やれやれ、長い1日になりそうだ。)</span> 仰せのままに、我"
+"が王子よ。"
+
+#. [objective]: condition=win
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:109
+msgid "Kill the spectre this turn with Prince Hildrac."
+msgstr "このターン中にHildrac王子によってスペクターにトドメを刺せ。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:117
+msgid "A unit besides Prince Hildrac kills the spectre."
+msgstr "Hildrac王子以外のユニットがスペクターを倒す。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:121
+msgid "Death of Prince Hildrac."
+msgstr "Hildrac王子の死。"
+
+#. [message]: speaker=prince
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:159
+msgid "Hey! That's MY experience!"
+msgstr "おい！それは私の経験値だぞ！"
+
+#. [message]: speaker=prince
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:176
+msgid "An easy victory! Did you see that? I killed it!"
+msgstr "楽勝だったな！見たかお前たち？私が倒したんだ！"
+
+#. [message]: speaker=mage
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:180
+msgid "You didn't do sh-"
+msgstr "あんた、なんにもしてなかっ……"
+
+#. [message]: speaker=mageoflight
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:184
+msgid ""
+"Splendid! Well done, my prince! Never in all my years have I witnessed such "
+"talent!"
+msgstr ""
+"素晴らしい！ 流石です、我が王子！ このような才能を目の当たりにしたのは、生ま"
+"れて初めてです！"
+
+#. [message]: speaker=mageoflight
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/06_exp.cfg:188
+msgid ""
+"<i>(Ugh, I hate babysitting, but the 3 gold per turn pays the bills....)</i>"
+msgstr ""
+"<span size='small'>(うげぇ、子守なんぞウンザリだ、 だがターン毎に3 gold の収"
+"入は代え難いか・・・)</span>"
+
+#. [scenario]: id=trollbridge
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:6
+msgid "Troll bridge"
+msgstr "トロルの橋"
+
+#. [side]: type=Direwolf Rider, id=grug
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:21
+msgid "Grug"
+msgstr "Grug"
+
+#. [side]: type=Troll Warrior, id=gronk
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:35
+msgid "Gronk"
+msgstr "Gronk"
+
+#. [scenario]: id=trollbridge
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:46
+msgid ""
+"One of your units has a very useful advancement. Too bad there is no way to "
+"transfer experience between your own units, but maybe there is another way..."
+msgstr ""
+"ユニットの一つに非常に便利なレベルアップ先があります。ユニット同士で経験値を"
+"交換する事はできませんが、別の方法があるかもしれません.."
+
+#. [scenario]: id=trollbridge
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:47
+msgid ""
+"The wolf rider needs to advance to a goblin pillager, which has the very "
+"useful slowing ability. That means it needs a level 2 kill, but the enemy is "
+"only level 1 - for now! Also, don't forget to take advantage of the nearby "
+"village."
+msgstr ""
+"ウルフライダーはレベルアップ先を、非常に有効なアビリティ「遅化」を持つゴブリ"
+"ンの略奪兵にする必要があります。つまりレベルアップにはレベル2ユニットの殺害が"
+"必要ですが、敵はレベル1に過ぎません。また、近くにある村を利用する事を忘れない"
+"でください。"
+
+#. [unit]: type=Wolf Rider, id=varicks
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:86
+msgid "Varicks"
+msgstr "Varicks"
+
+#. [unit]: type=Troll Whelp
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:123
+msgid "Thonk"
+msgstr "Thonk"
+
+#. [message]: speaker=gronk
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:133
+msgid ""
+"Dis troll bridge. We not let orcs take toll eggs. Wait, dat not right..."
+msgstr ""
+"ここは、トロルの橋だ。俺たちはオークにトロルの卵を渡さない。待て、そうじゃな"
+"くて.."
+
+#. [message]: speaker=varicks
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:137
+msgid "See?! I've been saying this whole time that trolls lay eggs!"
+msgstr "ほら見ろ?! 前から俺が言っていただろ、トロルは卵を産むんだ！"
+
+#. [message]: speaker=warrior
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:141
+msgid "You moron, everyone knows trolls reproduce by budding!"
+msgstr "お前馬鹿だろ、トロルは地面から生えて来るってみんな知ってるぞ！"
+
+#. [message]: speaker=grug
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:145
+msgid "Who cares, just hurry up and get rid of them!"
+msgstr "そんな事はどうでもいい、早いとこ奴らを排除するんだ！"
+
+#. [message]: speaker=gronk
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:149
+msgid "Gronk must protect eggs! Gronk not move from this spot."
+msgstr "Gronkは卵を守る！Gronkはここから動かない。"
+
+#. [objective]: condition=win
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:154
+msgid "Defeat the troll leader this or next turn."
+msgstr "このターンまたは次のターンでトロルのリーダーを殺す。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:158
+msgid "Death of Grug."
+msgstr "Grugの死。"
+
+#. [objective]: condition=lose
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:162
+msgid "The troll leader survives next turn."
+msgstr "トロルのリーダーが次のターンを生き残こる。"
+
+#. [message]: speaker=gronk
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:194
+msgid "Ah! Who will protect eggs now?!"
+msgstr "あぁ！これから誰が卵を守るんだ?!"
+
+#. [message]: speaker=grug
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:205
+msgid ""
+"Wait a minute... these are gryphon eggs! The trolls were just guarding their "
+"food supply!"
+msgstr ""
+"ちょっと待て… こいつはグリフォンの卵だ！トロルは食料を守っていただけだったの"
+"か！"
+
+#. [message]: speaker=varicks
+#: /Users/kawaguchi_hideo/Library/Application
+#: Support/Wesnoth_1.14/data/add-ons/Tactics_Puzzles/scenarios/07_trollbridge.cfg:209
+msgid "Well, that doesn't prove that trolls don't lay eggs!"
+msgstr "かもしれない、だけどそれはトロルが卵を産まない事の証明にはならない！"

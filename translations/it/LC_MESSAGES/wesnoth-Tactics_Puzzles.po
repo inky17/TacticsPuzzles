@@ -1,0 +1,699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2019-10-07 18:05 UTC\n"
+"PO-Revision-Date: 2019-10-07 23:35+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: Elvish_Hunter\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it\n"
+
+#. [scenario]: id=menu
+#: Tactics_Puzzles/scenarios/00_menu.cfg:6
+msgid "Menu"
+msgstr "Menu"
+
+#. [message]: speaker=narrator
+#: Tactics_Puzzles/scenarios/00_menu.cfg:115
+msgid "Choose a puzzle:"
+msgstr "Scegli un enigma:"
+
+#. [option]
+#: Tactics_Puzzles/scenarios/00_menu.cfg:132
+#: Tactics_Puzzles/scenarios/00_menu.cfg:151
+msgid "<b>Quit.</b>"
+msgstr "<b>Esci.</b>"
+
+#. [scenario]: id=exp
+#: Tactics_Puzzles/scenarios/06_exp.cfg:6
+msgid "The spoiled prince"
+msgstr "Il principe viziato"
+
+#. [scenario]: id=exp
+#: Tactics_Puzzles/scenarios/06_exp.cfg:32
+msgid ""
+"You need to get the spectre down to 2 HP, but there's no way to achieve that "
+"with just ranged attacks."
+msgstr ""
+"Devi far scendere lo spettro a 2 PF, ma non c'è alcun modo di riuscirci "
+"soltanto con gli attacchi a distanza."
+
+#. [scenario]: id=exp
+#: Tactics_Puzzles/scenarios/06_exp.cfg:33
+msgid ""
+"You'll have to heal the spectre a bit by having a mage melee attack it (and "
+"note that the mage of light's arcane resistance is so good that he will "
+"actually deal damage in melee).\n"
+"\n"
+"Also, one of the mages needs to die in order to make room for Hildrac to "
+"attack - tough luck!"
+msgstr ""
+"Dovrai far guarire un po' lo spettro facendolo attaccare con un attacco "
+"ravvicinato da un mago (e nota che la resistenza arcana del mago della luce "
+"è così alta che riuscirà comunque a causare danni con l'attacco "
+"ravvicinato).\n"
+"\n"
+"Inoltre, uno dei maghi deve morire così da fare spazio a Hildrac per il suo "
+"attacco - che sciagura!"
+
+#. [message]: speaker=mageoflight
+#: Tactics_Puzzles/scenarios/06_exp.cfg:96
+msgid ""
+"What fortune! We have come across an isolated foe which will provide "
+"valuable experience. Our mages will make quick work of it."
+msgstr ""
+"Che fortuna! Ci siamo imbattuti in un nemico isolato che ci fornirà della "
+"preziosa esperienza. I nostri maghi lo sistemeranno in fretta."
+
+#. [message]: speaker=prince
+#: Tactics_Puzzles/scenarios/06_exp.cfg:101
+msgid ""
+"And give them the experience? No, it's mine! <b>I</b> am the only one who "
+"matters here. The only purpose of all your existences is to make sure <b>I</"
+"b> survive!"
+msgstr ""
+"E dare loro l'esperienza? No, è mia! <b>Io</b> sono l'unico che conta qui. "
+"L'unico scopo della vostra esistenza è di assicurarvi che <b>Io</b> "
+"sopravviva!"
+
+#. [message]: speaker=mageoflight
+#: Tactics_Puzzles/scenarios/06_exp.cfg:105
+msgid "<i>(Sigh, it's going to be a long day.)</i> Very well, my prince."
+msgstr "<i>(Sigh, sarà una lunga giornata.)</i> Molto bene, mio principe."
+
+#. [objective]: condition=win
+#: Tactics_Puzzles/scenarios/06_exp.cfg:109
+msgid "Kill the spectre this turn with Prince Hildrac."
+msgstr "Uccidi lo spettro in questo turno col Principe Hildrac."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/06_exp.cfg:113
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:189
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:127
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:168
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:135
+msgid "End your turn."
+msgstr "Fine del tuo turno."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/06_exp.cfg:117
+msgid "A unit besides Prince Hildrac kills the spectre."
+msgstr "Un'unità diversa dal Principe Hildrac uccide lo spettro."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/06_exp.cfg:121
+msgid "Death of Prince Hildrac."
+msgstr "Morte del Principe Hildrac."
+
+#. [note]
+#: Tactics_Puzzles/scenarios/06_exp.cfg:125
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:197
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:122
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:131
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:166
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:172
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:139
+msgid "<b>All units (including enemies) have a 100% chance to hit.</b>"
+msgstr ""
+"<b>Tutte le unità (inclusi i nemici) hanno il 100% di probabilità di colpire."
+"</b>"
+
+#. [note]
+#: Tactics_Puzzles/scenarios/06_exp.cfg:128
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:200
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:125
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:134
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:169
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:175
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:142
+msgid "You can use Menu -> Back to Turn 1 to reset the puzzle."
+msgstr "Puoi usare Menu -> Torna al turno 1 per ripristinare l'enigma."
+
+#. [note]
+#: Tactics_Puzzles/scenarios/06_exp.cfg:131
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:203
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:128
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:137
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:172
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:178
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:145
+msgid "Right click to read a hint."
+msgstr "Fai clic col tasto destro per leggere un suggerimento."
+
+#. [note]
+#: Tactics_Puzzles/scenarios/06_exp.cfg:134
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:206
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:131
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:140
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:175
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:181
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:148
+msgid "Right click to return to the puzzle selection menu."
+msgstr ""
+"Fai clic col tasto destro per tornare al menu di selezione degli enigmi."
+
+#. [message]: speaker=prince
+#: Tactics_Puzzles/scenarios/06_exp.cfg:159
+msgid "Hey! That's MY experience!"
+msgstr "Ehi! Quella è LA MIA esperienza!"
+
+#. [message]: speaker=prince
+#: Tactics_Puzzles/scenarios/06_exp.cfg:176
+msgid "An easy victory! Did you see that? I killed it!"
+msgstr "Una facile vittoria! Avete visto? L'ho ucciso Io!"
+
+#. [message]: speaker=mage
+#: Tactics_Puzzles/scenarios/06_exp.cfg:180
+msgid "You didn't do sh-"
+msgstr "Tu non hai fatto un ca-"
+
+#. [message]: speaker=mageoflight
+#: Tactics_Puzzles/scenarios/06_exp.cfg:184
+msgid ""
+"Splendid! Well done, my prince! Never in all my years have I witnessed such "
+"talent!"
+msgstr ""
+"Splendido! Ben fatto, mio principe! In tutti i miei anni non sono mai stato "
+"testimone di cotanto talento!"
+
+#. [message]: speaker=mageoflight
+#: Tactics_Puzzles/scenarios/06_exp.cfg:188
+msgid ""
+"<i>(Ugh, I hate babysitting, but the 3 gold per turn pays the bills....)</i>"
+msgstr ""
+"<i>(Ugh, odio fargli da babysitter, ma 3 monete d'oro per turno pagano le "
+"bollette...)</i>"
+
+#. [message]: speaker=narrator
+#: Tactics_Puzzles/scenarios/06_exp.cfg:203
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:237
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:163
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:183
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:214
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:226
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:183
+msgid "Puzzle solved!"
+msgstr "Enigma risolto!"
+
+#. [scenario]: id=skirmish
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:6
+msgid "A skirmish with death"
+msgstr "Una schermaglia con la morte"
+
+#. [scenario]: id=skirmish
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:40
+msgid ""
+"The silver mage will do massive damage to the enemy leader, if he can get "
+"close somehow. There are actually several ways to do this - one way is to "
+"somehow use that village right next to the enemy leader."
+msgstr ""
+"Il mago argentato causerà danni imponenti al condottiero nemico, se solo "
+"riuscisse ad avvicinarsi in qualche modo. Effettivamente ci sono diverse "
+"strade per farlo - una di esse consiste nel riuscire a usare quel villaggio "
+"che si trova proprio vicino al condottiero nemico."
+
+#. [scenario]: id=skirmish
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:41
+msgid ""
+"The goal is to teleport the silver mage to that village right next to the "
+"leader. Right now it's occupied and belongs to the enemy, but maybe the "
+"skirmishers can do something about that. If a unit captures the village and "
+"dies on the same turn, the village will be left open for the silver mage to "
+"teleport to."
+msgstr ""
+"L'obiettivo è di teletrasportare il mago argentato in quel villaggio proprio "
+"vicino al condottiero nemico. Adesso è occupato e appartiene al nemico, ma "
+"forse gli incursori potrebbero fare qualcosa al proposito. Se un'unità "
+"catturasse un villaggio e morisse nello stesso turno, il villaggio sarebbe a "
+"disposizione del mago argentato per teletrasportarsi."
+
+#. [message]: speaker=undead_leader
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:181
+msgid "Accept your fate, mortals! You stand no chance against my undead horde!"
+msgstr ""
+"Accettate il vostro destino, mortali! Non avete alcuna possibilità contro la "
+"mia orda di non-morti!"
+
+#. [objective]: condition=win
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:185
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:123
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:131
+msgid "Kill the enemy leader this turn."
+msgstr "Uccidi il condottiero nemico in questo turno."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:193
+msgid "Death of your leader."
+msgstr "Morte del tuo condottiero."
+
+#. [message]: speaker=undead_leader
+#: Tactics_Puzzles/scenarios/05_skirmish.cfg:225
+msgid ""
+"What's the point of having a massive army when the enemy just WALKS RIGHT "
+"THROUGH?!"
+msgstr ""
+"Qual'è lo scopo dell'avere un imponente esercito quando il nemico CI "
+"PASSEGGIA ATTRAVERSO?!"
+
+#. [scenario]: id=backstabs
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:6
+msgid "Watch your back"
+msgstr "Guardati alle spalle"
+
+#. [scenario]: id=backstabs
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:38
+msgid ""
+"Shadows are skirmishers, meaning a shadow can provide the backstab bonus for "
+"another shadow and continue moving afterwards."
+msgstr ""
+"Le ombre sono incursori, ciò significa che un'ombra può fornire il bonus per "
+"l'attacco alle spalle ad un'altra ombra e poi continuare a muoversi."
+
+#. [scenario]: id=backstabs
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:39
+msgid ""
+"Six backstabs (two shadows attacking with the backstab bonus) will finish "
+"the enemy leader. So one of the shadows can provide the backstab bonus for "
+"the other two before moving out of range."
+msgstr ""
+"Sei attacchi alle spalle (due ombre che attaccano col bonus dell'attacco "
+"alle spalle) finiranno il condottiero nemico. Così una delle ombre può "
+"fornire il bonus dell'attacco alle spalle alle altre due prima di muoversi "
+"fuori dal raggio d'azione dei nemici."
+
+#. [message]: speaker=whitemage
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:94
+msgid ""
+"This place gives me the creeps. I've heard rumors that it's haunted. Perhaps "
+"we should turn back."
+msgstr ""
+"Questo posto mi fa venire la pelle d'oca. Ho sentito delle voci secondo cui "
+"sarebbe infestato. Forse dovremmo tornare indietro."
+
+#. [message]: speaker=mage_leader
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:98
+msgid ""
+"What are you scared of, the trees? It's broad daylight! I've had enough of "
+"your-"
+msgstr ""
+"Di che hai paura, degli alberi? Siamo in pieno giorno! Ne ho abbastanza "
+"delle tue-"
+
+#. [message]: speaker=mage
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:102
+msgid "Ahhhh! <b>Behind you!</b>"
+msgstr "Ahhhh! <b>Dietro di te!</b>"
+
+#. [message]: speaker=mage_leader
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:106
+msgid "Just how gullible do you think I am?"
+msgstr "Quanto credulone pensate che io sia?"
+
+#. [objective]: condition=win
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:110
+msgid ""
+"Kill the enemy leader, and have all your shadows survive the enemy turn."
+msgstr ""
+"Uccidi il condottiero nemico, e fai in modo che tutte le tue ombre "
+"sopravvivano al turno del nemico."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:114
+msgid "Enemy leader survives."
+msgstr "Il condottiero nemico sopravvive."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:118
+msgid "Loss of a shadow."
+msgstr "Morte di un'ombra."
+
+#. [message]: speaker=whitemage
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:158
+msgid "That's it, we're getting out of here!"
+msgstr "Basta, andiamocene via da qui!"
+
+#. [message]: speaker=mage_leader
+#: Tactics_Puzzles/scenarios/01_backstabs.cfg:193
+msgid "See? I told you there's nothing to worry about."
+msgstr "Visto? Vi ho detto che non c'era niente di cui preoccuparsi."
+
+#. [scenario]: id=illuminate
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:6
+msgid "Let there be light"
+msgstr "Sia la luce"
+
+#. [scenario]: id=illuminate
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:36
+msgid ""
+"Usually, you only want to illuminate your own lawful units and the enemy's "
+"chaotic units, but every rule has an exception."
+msgstr ""
+"Solitamente, è preferibile illuminare le tue unità legali e le unità "
+"caotiche del nemico, ma ogni regola ha un'eccezione."
+
+#. [scenario]: id=illuminate
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:37
+msgid ""
+"You have too many units and not enough hexes - it would be convenient if the "
+"outlaw died while attacking to free up the hex for another unit. The enemy "
+"leader isn't able to kill the outlaw without illumination though.\n"
+"\n"
+"Every damage point counts, so make sure the peasant does maximum damage "
+"before he goes down."
+msgstr ""
+"Hai troppe unità e non hai abbastanza esagoni - sarebbe conveniente se il "
+"fuorilegge morisse mentre attacca così da liberare l'esagono per un'altra "
+"unità. Il condottiero nemico tuttavia non è in grado di uccidere il "
+"fuorilegge senza illuminazione.\n"
+"\n"
+"Ogni punto di danno conta, quindi assicurati che il contadino faccia più "
+"danno possibile prima di soccombere."
+
+#. [message]: speaker=human_leader
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:115
+msgid "Intruders in the night! To arms!"
+msgstr "Intrusi nella notte! Alle armi!"
+
+#. [message]: speaker=peasant
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:119
+msgid "Maybe I should have stayed home..."
+msgstr "Forse avrei dovuto rimanere a casa..."
+
+#. [message]: speaker=human_leader
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:159
+msgid "Argh!"
+msgstr "Argh!"
+
+#. [message]: speaker=knight
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:163
+msgid "<i>Yawn</i>... huh? Is it morning already? What's going on?"
+msgstr "<i>Yawn</i>... huh? È già mattina? Cosa sta succedendo?"
+
+#. [message]: speaker=swordsman
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:167
+msgid "<i>(Snore)</i>"
+msgstr "<i>(Russa)</i>"
+
+#. [message]: speaker=human_leader
+#: Tactics_Puzzles/scenarios/03_illuminate.cfg:171
+msgid "Some help you two were!"
+msgstr "Bell'aiuto che siete stati, voi due!"
+
+#. [scenario]: id=trollbridge
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:6
+msgid "Troll bridge"
+msgstr "Ponte dei troll"
+
+#. [side]: type=Direwolf Rider, id=grug
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:21
+msgid "Grug"
+msgstr "Grug"
+
+#. [side]: type=Troll Warrior, id=gronk
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:35
+msgid "Gronk"
+msgstr "Gronk"
+
+#. [scenario]: id=trollbridge
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:46
+msgid ""
+"One of your units has a very useful advancement. Too bad there is no way to "
+"transfer experience between your own units, but maybe there is another way..."
+msgstr ""
+"Una delle tue unità ha un avanzamento molto utile. Peccato che non ci sia "
+"modo di trasferire l'esperienza tra le tue unità, ma forse c'è un'altra "
+"strada..."
+
+#. [scenario]: id=trollbridge
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:47
+msgid ""
+"The wolf rider needs to advance to a goblin pillager, which has the very "
+"useful slowing ability. That means it needs a level 2 kill, but the enemy is "
+"only level 1 - for now! Also, don't forget to take advantage of the nearby "
+"village."
+msgstr ""
+"Il cavalcatore di lupi deve avanzare come goblin saccheggiatore, che ha "
+"l'utilissima abilità di rallentamento. Questo significa che ha bisogno di "
+"uccidere un'unità di livello 2, ma il nemico è solo di livello 1 - per "
+"adesso! Inoltre, non dimenticarti di approfittare del villaggio nelle "
+"vicinanze."
+
+#. [unit]: type=Wolf Rider, id=varicks
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:86
+msgid "Varicks"
+msgstr "Varicks"
+
+#. [unit]: type=Troll Whelp
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:123
+msgid "Thonk"
+msgstr "Thonk"
+
+#. [message]: speaker=gronk
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:133
+msgid ""
+"Dis troll bridge. We not let orcs take toll eggs. Wait, dat not right..."
+msgstr ""
+"Guesto ponte di troll. Noi no lasciare orchi prendere nostre uova. Aspetta, "
+"guesto no giusto..."
+
+#. [message]: speaker=varicks
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:137
+msgid "See?! I've been saying this whole time that trolls lay eggs!"
+msgstr "Visto? Lo dico da sempre che i troll depongono le uova!"
+
+#. [message]: speaker=warrior
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:141
+msgid "You moron, everyone knows trolls reproduce by budding!"
+msgstr ""
+"Pezzo di deficiente, tutti sanno che i troll si riproducono per gemmazione!"
+
+#. [message]: speaker=grug
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:145
+msgid "Who cares, just hurry up and get rid of them!"
+msgstr "Chi se ne frega, sbrighiamoci e sbarazziamoci di loro!"
+
+#. [message]: speaker=gronk
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:149
+msgid "Gronk must protect eggs! Gronk not move from this spot."
+msgstr "Gronk deve proteggere uova! Gronk no muovere da guesto posto."
+
+#. [objective]: condition=win
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:154
+msgid "Defeat the troll leader this or next turn."
+msgstr "Sconfiggi il condottiero dei troll in questo turno o nel prossimo."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:158
+msgid "Death of Grug."
+msgstr "Morte di Grug."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:162
+msgid "The troll leader survives next turn."
+msgstr "Il condottiero dei troll sopravvive al prossimo turno."
+
+#. [message]: speaker=gronk
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:194
+msgid "Ah! Who will protect eggs now?!"
+msgstr "Ah! Chi proteggere uova ora?!"
+
+#. [message]: speaker=grug
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:205
+msgid ""
+"Wait a minute... these are gryphon eggs! The trolls were just guarding their "
+"food supply!"
+msgstr ""
+"Aspetta un minuto... queste sono uova di grifone! I troll stavano solo "
+"facendo la guardia alle loro scorte di cibo!"
+
+#. [message]: speaker=varicks
+#: Tactics_Puzzles/scenarios/07_trollbridge.cfg:209
+msgid "Well, that doesn't prove that trolls don't lay eggs!"
+msgstr "Be', questo non dimostra che i troll non depongano uova!"
+
+#. [scenario]: id=revenge
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:9
+msgid "Growloff's revenge"
+msgstr "La vendetta di Growloff"
+
+#. [side]: id=Growloff, type=Ranger
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:27
+msgid "Growloff and his Pets"
+msgstr "Growloff e i suoi cuccioli"
+
+#. [side]: id=Growloff, type=Ranger
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:29
+msgid "Growloff"
+msgstr "Growloff"
+
+#. [scenario]: id=revenge
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:39
+msgid ""
+"You'll need to use both Keshan's leadership and Cylanna's illumination "
+"optimally (and remember that the leadership bonus stacks with illumination)."
+msgstr ""
+"Avrai bisogno di utilizzare sia il comando di Keshan che l'illuminazione di "
+"Cylanna in modo ottimale (e ricordarti che il bonus del comando si combina "
+"con l'illuminazione)."
+
+#. [scenario]: id=revenge
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:40
+msgid ""
+"The first thing to do is slow Growloff with the help of Keshan's leadership, "
+"while using Cylanna to make sure Gwabbo doesn't die on the counterattack.\n"
+"\t\n"
+"\tCylanna can't survive full hits from Growloff - but maybe she can finish "
+"him off before he gets a chance to use all his attacks."
+msgstr ""
+"La prima cosa da fare è rallentare Growloff con l'aiuto del comando di "
+"Keshan, usando al tempo stesso Cylanna per assicurarti che Gwabbo non muoia "
+"nel contrattacco.\n"
+"\t\n"
+"\tCylanna non può sopravvivere a tutti i colpi di Growloff - ma forse può "
+"finirlo prima che lui abbia la possibilità di usare tutti i propri attacchi."
+
+#. [message]: speaker=Growloff
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:148
+msgid "Enjoy your meal, my pets! It's an all you can eat fish buffet!"
+msgstr "Buon appetito, miei cuccioli! È un buffet a volontà di pesce!"
+
+#. [message]: speaker=gwabbo
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:152
+msgid "We're all going to become breakfast at this rate!"
+msgstr "Diventeremo tutti una colazione a questo ritmo!"
+
+#. [message]: speaker=cylanna
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:156
+msgid "Maybe if we kill the one commanding them, those creatures will retreat."
+msgstr ""
+"Forse se uccidiamo quello che li comanda, quelle creature si ritireranno."
+
+#. [objective]: condition=win
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:160
+msgid "Kill Growloff this turn without losing a unit."
+msgstr "Uccidi Growloff in questo turno senza perdere alcuna unità."
+
+#. [objective]: condition=lose
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:164
+msgid "Death of any of your units."
+msgstr "Morte di una qualsiasi delle tue unità."
+
+#. [message]: speaker=unit
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:200
+msgid "No, I don't want to get eaten!"
+msgstr "No, non voglio essere mangiato!"
+
+#. [message]: speaker=Growloff
+#: Tactics_Puzzles/scenarios/04_revenge.cfg:214
+msgid "Killed by seafood... maybe I should have become a vegetarian."
+msgstr "Ucciso dai frutti di mare... forse sarei dovuto diventare vegetariano."
+
+#. [scenario]: id=leadership
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:6
+msgid "Follow the leader"
+msgstr "Segui il condottiero"
+
+#. [scenario]: id=leadership
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:32
+msgid ""
+"Elvish fighters can level to captains, which increase the damage of adjacent "
+"lower level units."
+msgstr ""
+"Gli elfi combattenti possono salire di livello come capitani, il che aumenta "
+"il danno delle unità adiacenti di livello inferiore."
+
+#. [scenario]: id=leadership
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:33
+msgid ""
+"Note that both fighters are one kill away from leveling: one of them needs a "
+"level 1 kill, and the other needs a level 2 kill. The less experienced "
+"fighter can't kill a level 2 unit on his own, but could do so with the help "
+"of leadership."
+msgstr ""
+"Nota che entrambi i combattenti sono a un'uccisione di distanza dalla salita "
+"di livello: uno dei due a bisogno di un'uccisione di livello 1, e l'altro di "
+"livello 2. Il combattente con meno esperienza non può uccidere un'unità di "
+"livello 2 da solo, ma potrebbe farlo con l'aiuto dell'abilità comando."
+
+#. [message]: speaker=orc_leader
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:127
+msgid "Ha, you puny elves will never make it past my wall of meatshields!"
+msgstr ""
+"Ha, voi gracili elfi non ce la farete mai a oltrepassare il mio muro di "
+"scudi ambulanti!"
+
+#. [message]: speaker=orc_leader
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:167
+msgid "How did you incompetent fools die so fast?!"
+msgstr "Pazzi incompetenti, come avete fatto a morire così presto?!"
+
+#. [message]: speaker=archer
+#: Tactics_Puzzles/scenarios/02_leadership.cfg:171
+msgid "It's not fair, boss - the random number generator is rigged!"
+msgstr ""
+"Non è giusto, capo - il generatore di numeri casuali è stato manomesso!"
+
+#. [set_menu_item]: id=3_menu_return #to make it the last menu item, seems the order is based on the id
+#: Tactics_Puzzles/macros/right_click_menu.cfg:9
+msgid "Return to puzzle selection menu"
+msgstr "Ritorna al menu di selezione degli enigmi"
+
+#. [set_menu_item]: id=1_vague_hint
+#: Tactics_Puzzles/macros/right_click_menu.cfg:30
+msgid "Read a vague hint"
+msgstr "Leggi un vago suggerimento"
+
+#. [set_menu_item]: id=2_detailed_hint
+#: Tactics_Puzzles/macros/right_click_menu.cfg:49
+msgid "Read a detailed hint"
+msgstr "Leggi un suggerimento dettagliato"
+
+#. [campaign]: id=tactics_puzzles
+#: Tactics_Puzzles/_main.cfg:11
+msgid "Tactics Puzzles"
+msgstr "Enigmi di Tattica"
+
+#. [campaign]: id=tactics_puzzles
+#: Tactics_Puzzles/_main.cfg:12
+msgid "TP"
+msgstr "EdT"
+
+#. [campaign]: id=tactics_puzzles
+#: Tactics_Puzzles/_main.cfg:17
+msgid ""
+"A collection of tactical puzzles for Wesnoth, similar to tactics problems in "
+"chess.\n"
+"\t\n"
+"Each puzzle has a hint which you can read using the right click menu. If "
+"you're still stuck, there's a text file included in the addon with solutions "
+"to all the puzzles.\n"
+"\t\n"
+"(7 puzzles so far)"
+msgstr ""
+"Una collezione di enigmi di tattica per Wesnoth, simili ai problemi di "
+"tattica degli scacchi.\n"
+"\t\n"
+"Ogni enigma ha un suggerimento che puoi leggere usando il menu del tasto "
+"destro del mouse. Se sei ancora bloccato, c'è un file di testo incluso "
+"nell'addon con le soluzioni di tutti gli enigmi.\n"
+"\t\n"
+"(7 enigmi fino a questo momento)"
+
+#. [campaign]: id=tactics_puzzles
+#: Tactics_Puzzles/_main.cfg:25
+msgid ""
+"All puzzles solved!\n"
+"Well done!"
+msgstr ""
+"Tutti gli enigmi sono risolti!\n"
+"Ben fatto!"
+
+#. [about]
+#: Tactics_Puzzles/_main.cfg:29
+msgid "Japanese Translation"
+msgstr "Traduzione giapponese"
